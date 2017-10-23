@@ -1,8 +1,7 @@
 notifications:
   irc:
     channels:
-      - "chat.freenode.net#my-channel"
-      - "chat.freenode.net#some-other-channel"
+      - "chat.freenode.net#av-caster"
     template:
       - "%{repository} (%{commit}) : %{message} %{foo} "
       - "Build details: %{build_url}"
